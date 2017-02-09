@@ -50,7 +50,7 @@ cs142App.controller('ExampleController', ['$scope', function($scope) {
    /*
     * name - We read the example model data into the scope variable 'name'
     */
-   $scope.name = cs142models.exampleModel.name;
+   $scope.name = cs142models.exampleModel().name;
   
 }]);
 
