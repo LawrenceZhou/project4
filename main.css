@@ -1,6 +1,11 @@
 .header {
-    /*background-image: url("画像ファイル名");*/
+    /*background-image: url("画像ファイル名");
     background-color: red;
     background-position: left center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    padding: 25px 15px;
+    border-bottom: 1px solid #669;
+    color: #999;
+    background: #8fabbe;
+    text-align: left;
 }
