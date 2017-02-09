@@ -3,7 +3,7 @@
     <div class="motto-update"> <p>Input the substring: <input type="text" ng-model="substring"></p></div>
     <div> filter is {{substring}}</div>
     <ul>
-   <li ng-repeat="state in states | filter:substring">
+   <li ng-repeat="state in states | filter:substring | orderBy:state">
       <span>{{state}}</span>
 </li> </ul>
 
