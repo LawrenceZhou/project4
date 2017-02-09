@@ -16,4 +16,6 @@ cs142App.controller('MainController', ['$scope', function($scope) {
    // by the html view template to get the page's title in the browser tab.
    $scope.main = {};
    $scope.main.title = 'CS142 Project #4';
+   $scope.main.name = 'Yijun';
+   $scope.main.motto = 'Fly';
 }]);
