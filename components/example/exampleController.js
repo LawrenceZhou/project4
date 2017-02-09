@@ -52,7 +52,7 @@ cs142App.controller('ExampleController', ['$scope', function($scope) {
     */
    $scope.name = 'Yijun Zhou';
 
-   //var motto = angular.element(element.getElementsByClassName("motto-update"));
-   //motto.attr('innerHTML', 'Yijun Zhou: The sky is my oyster.');
+   $scope.motto = $scope.$parent.main.motto;
   
 }]);
+
