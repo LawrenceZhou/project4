@@ -52,7 +52,7 @@ cs142App.controller('ExampleController', ['$scope', function($scope) {
     */
    $scope.name = 'Yijun Zhou';
 
-   $scope.motto = $scope.$parent.main.motto;
+   //$scope.motto = $scope.$parent.main.motto;
   
 }]);
 
