@@ -51,5 +51,8 @@ cs142App.controller('ExampleController', ['$scope', function($scope) {
     * name - We read the example model data into the scope variable 'name'
     */
    $scope.name = 'Yijun Zhou';
+
+   var motto = angular.element(element.getElementsByClassName("motto-update"));
+   motto.attr('innerHTML', 'Yijun Zhou: The sky is my oyster.');
   
 }]);
