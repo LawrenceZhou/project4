@@ -4,12 +4,12 @@ CSS for the CS142 project #4 Problem #2 states component
 Since CSS uses a global name space for classes we should use names starting with
 cs142-states- here.
 */
-ul {
+ul.cs142-states-list {
 	list-style:none;
 	margin:10px 0 10px 15px;
 	padding:0;		
 }
-ul li {
+ul.cs142-states-list li {
 	margin-bottom:1px;
 	border: 1px solid #f2f2f2;
 	display:block;
@@ -19,11 +19,10 @@ ul li {
 	padding:3px 5px 3px 10px;
 	background: #f2f2f2;
 	border-left:4px solid #CCC;	
-	
 	min-height:18px;
 }
 
-ul li:hover {
+ul.cs142-states-list li:hover {
 	padding:3px 5px 3px 10px;
 	background: #f2f2f2;
 	color: #339900;
