@@ -20,8 +20,8 @@
   </head>
   <body>
   <div ng-include="'components/header/headerTemplate.html'" ng-controller="HeaderController"></div>
-  <button ng-click="switchView()" class="switchView">{{ p4.buttonMessage || "Unknown Button"}}</button>
-  <div ng-show ="p4.exampleVisible" ng-include="'components/example/exampleTemplate.html'" ng-controller="ExampleController" class="exampleElement"></div>
-  <div ng-show ="!p4.exampleVisible" ng-include="'components/states/statesTemplate.html'" ng-controller="StatesController" class="statesElement"></div>
+  <button ng-click="switchView()" class="button switchView">{{ p4.buttonMessage || "Unknown Button"}}</button>
+  <div ng-show ="p4.exampleVisible" ng-include="'components/example/exampleTemplate.html'" ng-controller="ExampleController"></div>
+  <div ng-show ="!p4.exampleVisible" ng-include="'components/states/statesTemplate.html'" ng-controller="StatesController"></div>
   </body>
 </html>

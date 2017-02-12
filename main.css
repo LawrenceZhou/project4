@@ -6,3 +6,7 @@
     background: #FEEDBD;
     text-align: left;
 }
+
+button .switchView {
+	margin: 10px;
+}
