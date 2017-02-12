@@ -20,8 +20,15 @@ cs142App.controller('MainController', ['$scope', function($scope) {
    $scope.main.motto = 'Blossom';
 
    $scope.p4 = {};
-   $scope.p4.buttonMessage = 'Swtich to states';
    $scope.p4.exampleVisible = true;
+   $scope.p4.buttonMessage = '';
+
+   if($scope.p4.exampleVisible === true){
+   	    	$scope.p4.buttonMessage = 'Swtich to states';
+   	    } else {
+   	    	$scope.p4.buttonMessage = 'Swtich to example';
+   	    }
+   
 
    $scope.switchView = function() {
    	    if($scope.p4.exampleVisible === true){
