@@ -15,6 +15,7 @@ var cs142App = angular.module('cs142App', ['ngRoute']);
 cs142App.controller('MainController', ['$scope', function($scope) {
    // We defined an object called 'main' with a single property 'title' that is used
    // by the html view template to get the page's title in the browser tab.
+
    $scope.main = {};
    $scope.main.title = 'CS142 Project #4';
    $scope.main.name = 'Yijun';
@@ -38,3 +39,19 @@ cs142App.controller('MainController', ['$scope', function($scope) {
    		
     };
 }]);
+
+cs142App.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/example', {
+        templateUrl: 'components/example/exampleTemplate.html',
+        controller: 'ExampleController'
+      }).
+      when('/states', {
+        templateUrl: 'components/states/statesTemplate.html',
+        controller: 'StatesController'
+      }).
+      otherwise({
+        redirectTo: '/example'
+      });
+  }]);
