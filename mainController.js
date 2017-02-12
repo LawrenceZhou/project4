@@ -18,4 +18,11 @@ cs142App.controller('MainController', ['$scope', function($scope) {
    $scope.main.title = 'CS142 Project #4';
    $scope.main.name = 'Yijun';
    $scope.main.motto = 'Blossom';
+
+   $scope.p4 = {};
+   $scope.p4.buttonMessage = 'OK';
+
+   $scope.switchView = function() {
+        $scope.p4.buttonMessage = 'WTF';
+    };
 }]);
