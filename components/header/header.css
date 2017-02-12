@@ -3,6 +3,7 @@
 	font-size: 40px;
     background-image: url(japonesque.jpg);
     background-size: cover;
+    background-position: top;
     text-align: center;
     background-attachment: fixed;
 }
