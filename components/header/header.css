@@ -2,6 +2,7 @@
 	padding: 25px;
     color: white;
     background-image: url(umi.jpg);
+    background-position: top;
     background-repeat: repeat-x;
     text-align: center;
     background-attachment: fixed;
