@@ -18,6 +18,7 @@ controller named MainController.-->
         <script src="modelData/example.js"></script>
     </head>
     <body>
+        <div ng-include="'components/header/headerTemplate.html'" ng-controller="ExampleController"></div>
         <div class="header">{{main.name || "Unknown Name"}} - {{main.motto || "Unknown Motto"}}</div> <!-- Your problem #1 header widget goes here-->
 
         <!--Include the example view template in this div. This will result in the
