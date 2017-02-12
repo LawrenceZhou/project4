@@ -21,6 +21,7 @@ cs142App.controller('MainController', ['$scope', function($scope) {
 
    $scope.p4 = {};
    $scope.p4.buttonMessage = 'OK';
+   $scope.p4.exampleVisible = true;
 
    $scope.switchView = function() {
         $scope.p4.buttonMessage = 'WTF';
