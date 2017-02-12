@@ -6,4 +6,4 @@ cs142App.controller('HeaderController', ['$scope', function($scope) {
    // case it contains the page's title property.  We update it so the page title
    // will include this view's name "Example".
       $scope.style = 'JAPONESQUE';
-}
+});
