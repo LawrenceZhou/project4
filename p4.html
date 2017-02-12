@@ -19,8 +19,8 @@
     <script src="modelData/example.js"></script>
   </head>
   <body>
-  <div ng-show = "checked" ng-include="'components/header/headerTemplate.html'" ng-controller="HeaderController"></div>
+  <div ng-include="'components/header/headerTemplate.html'" ng-controller="HeaderController"></div>
   <div ng-include="'components/example/exampleTemplate.html'" ng-controller="ExampleController"></div>
-  <div ng-include="'components/states/statesTemplate.html'" ng-controller="StatesController"></div>
+  <div ng-show = "checked" ng-include="'components/states/statesTemplate.html'" ng-controller="StatesController"></div>
   </body>
 </html>
