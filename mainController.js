@@ -4,7 +4,8 @@
  * Create an angular module called 'cs142App' and assign it to a DOM property with the same name.
  * The [] argument specifies module is to be created and doesn't require any other module.
  */
-var cs142App = angular.module('cs142App', []);
+//var cs142App = angular.module('cs142App', []);
+var cs142App = angular.module('cs142App', ['ngRoute']);
 
 /**
  * Create a controller named 'MainController'.  The array argument specifies the controller

@@ -22,7 +22,7 @@
   <body>
   <div ng-include="'components/header/headerTemplate.html'" ng-controller="HeaderController"></div>
   <button ng-click="switchView()" class="switchView">{{ p4.buttonMessage || "Unknown Button"}}</button>
-  <div ng-show ="p4.exampleVisible" ng-include="'components/example/exampleTemplate.html'" ng-controller="ExampleController"></div>
-  <div ng-show ="!p4.exampleVisible" ng-include="'components/states/statesTemplate.html'" ng-controller="StatesController"></div>
+  <div ng-if ="p4.exampleVisible" ng-include="'components/example/exampleTemplate.html'" ng-controller="ExampleController"></div>
+  <div ng-if ="!p4.exampleVisible" ng-include="'components/states/statesTemplate.html'" ng-controller="StatesController"></div>
   </body>
 </html>
